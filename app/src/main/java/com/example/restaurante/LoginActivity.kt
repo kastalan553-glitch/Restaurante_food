@@ -19,13 +19,18 @@ class LoginActivity : AppCompatActivity() {
             llamarHome()
         }
         btnCerrar.setOnClickListener {
-            finish()
+            llamarMain()
         }
     }
 
     fun llamarHome(){
         val pantallaHome = Intent(this, HomeActivity::class.java)
         startActivity(pantallaHome)
+        finish()
+    }
+    fun llamarMain(){
+        val pantallaMain = Intent(this, MainActivity::class.java)
+        startActivity(pantallaMain)
         finish()
     }
 }

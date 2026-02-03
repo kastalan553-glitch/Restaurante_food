@@ -4,6 +4,8 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
+import android.widget.Toast
+import androidx.appcompat.app.AlertDialog
 
 class MainActivity : AppCompatActivity() {
     lateinit var btnCerrar: Button
@@ -21,9 +23,24 @@ class MainActivity : AppCompatActivity() {
         }
 
         btnCerrar.setOnClickListener {
-            finish()
+            cerrar()
         }
 
+    }
+    fun cerrar(){
+        val builder : AlertDialog.Builder = AlertDialog.Builder(this)
+        builder
+            .setMessage("Una vez finalizada la App tendras que volver a iniciar sesión")
+            .setTitle("¿Seguro que deseas salir?")
+            .setPositiveButton(android.R.string.yes){ dialog, which ->
+                Toast.makeText(applicationContext, android.R.string.yes, Toast.LENGTH_SHORT).show()
+                System.exit(0)
+            }
+            .setNegativeButton(android.R.string.no){dialog, which ->
+                Toast.makeText(applicationContext, android.R.string.no, Toast.LENGTH_SHORT).show()
+            }
+        val dialog: AlertDialog = builder.create()
+        dialog.show()
     }
 
     fun llamarLogin(){

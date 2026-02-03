@@ -39,29 +39,16 @@ class HomeActivity : AppCompatActivity() {
                     true
                 }
                 R.id.menu_salir -> {
-                    cerrar()
-
+                    val pantallaHome = Intent(this, LoginActivity::class.java)
+                    startActivity(pantallaHome)
+                    finish()
                     true
                 }
                 else -> false
             }
         }
     }
-    fun cerrar(){
-        val builder : AlertDialog.Builder = AlertDialog.Builder(this)
-        builder
-            .setMessage("Fin de la app")
-            .setTitle("Cerrar APP")
-            .setPositiveButton(android.R.string.yes){ dialog, which ->
-                Toast.makeText(applicationContext, android.R.string.yes, Toast.LENGTH_SHORT).show()
-                System.exit(0)
-            }
-            .setNegativeButton(android.R.string.no){dialog, which ->
-                Toast.makeText(applicationContext, android.R.string.no, Toast.LENGTH_SHORT).show()
-            }
-        val dialog: AlertDialog = builder.create()
-        dialog.show()
-    }
+
 
     override fun onCreateOptionsMenu(menu: Menu?): Boolean {
         menuInflater.inflate(R.menu.menu_home, menu)

@@ -5,7 +5,7 @@
     <application
         android:allowBackup="true"
         android:icon="@drawable/icon_global"
-        android:label="Food"
+        android:label="Hot Perú"
         android:roundIcon="@drawable/icon_global"
         android:supportsRtl="true"
         android:theme="@style/Theme.Restaurante">
