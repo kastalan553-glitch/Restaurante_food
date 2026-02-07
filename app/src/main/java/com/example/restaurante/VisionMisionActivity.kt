@@ -10,7 +10,7 @@ class VisionMisionActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_maps)
+        setContentView(R.layout.activity_vision_mision)
         toolbar = findViewById(R.id.toolbar)
 
         toolbar.setNavigationOnClickListener{

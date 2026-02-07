@@ -15,5 +15,40 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
+    <Button
+        android:id="@+id/btnLocal1"
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:text="Local Piura"
+        android:textAllCaps="false"
+        android:textSize="18sp"
+        app:backgroundTint="#FD0000"
+        app:cornerRadius="15dp"
+        app:icon="@android:drawable/ic_dialog_map"
+        app:iconGravity="end"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.705" />
+
+    <Button
+        android:id="@+id/btnLocal2"
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:text="Local Castilla"
+        android:textAllCaps="false"
+        android:textSize="18sp"
+        app:backgroundTint="#FD0000"
+        app:cornerRadius="15dp"
+        app:icon="@android:drawable/ic_dialog_map"
+        app:iconGravity="end"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.828" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -10,7 +10,7 @@ class QuienesSomosActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_maps)
+        setContentView(R.layout.activity_quienes_somos)
         toolbar = findViewById(R.id.toolbar)
 
         toolbar.setNavigationOnClickListener{
