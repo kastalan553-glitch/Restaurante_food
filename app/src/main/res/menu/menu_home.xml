@@ -2,8 +2,16 @@
 <menu xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:android="http://schemas.android.com/apk/res/android">
 
-    <item android:title="Gestionar Usuarios" />
-    <item android:title="Gestionar Producto" />
-    <item android:title="Gestionar Mozo" />
-    <item android:title="Gestionar Pedido" />
+    <item
+        android:id="@+id/gestionUsuarios"
+        android:title="Gestión Usuarios" />
+    <item
+        android:id="@+id/gestionPlatos"
+        android:title="Gestión Plato" />
+    <item
+        android:id="@+id/gestionMozos"
+        android:title="Gestión Mozo" />
+    <item
+        android:id="@+id/gestionPedidos"
+        android:title="Gestión Pedido" />
 </menu>
