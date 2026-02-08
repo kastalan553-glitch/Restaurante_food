@@ -1,9 +1,11 @@
-package com.example.restaurante
+package com.example.restaurante.ui.informacion
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.appcompat.widget.Toolbar
+import com.example.restaurante.HomeActivity
+import com.example.restaurante.R
 
 class QuienesSomosActivity : AppCompatActivity() {
     lateinit var toolbar: Toolbar

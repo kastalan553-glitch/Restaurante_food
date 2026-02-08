@@ -1,7 +1,8 @@
-package com.example.restaurante
+package com.example.restaurante.ui.mozos
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.example.restaurante.R
 
 class GestMozosActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

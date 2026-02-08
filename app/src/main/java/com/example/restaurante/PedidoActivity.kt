@@ -3,9 +3,9 @@ package com.example.restaurante
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 
-class VentaActivity : AppCompatActivity() {
+class PedidoActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_venta)
+        setContentView(R.layout.activity_pedido)
     }
 }

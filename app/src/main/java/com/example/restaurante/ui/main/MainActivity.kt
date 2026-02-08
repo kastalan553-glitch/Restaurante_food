@@ -1,4 +1,4 @@
-package com.example.restaurante
+package com.example.restaurante.ui.main
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
@@ -6,6 +6,8 @@ import android.os.Bundle
 import android.widget.Button
 import android.widget.Toast
 import androidx.appcompat.app.AlertDialog
+import com.example.restaurante.ui.auth.LoginActivity
+import com.example.restaurante.R
 
 class MainActivity : AppCompatActivity() {
     lateinit var btnCerrar: Button

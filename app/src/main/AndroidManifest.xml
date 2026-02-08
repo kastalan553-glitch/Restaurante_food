@@ -13,41 +13,41 @@
             android:name=".ListaProductosActivity"
             android:exported="true" />
         <activity
-            android:name=".VentaActivity"
+            android:name=".PedidoActivity"
             android:exported="true" />
         <activity
             android:name=".GestPedidosActivity"
             android:exported="true" />
         <activity
-            android:name=".GestMozosActivity"
+            android:name=".ui.mozos.GestMozosActivity"
             android:exported="true" />
         <activity
-            android:name=".GestPlatosActivity"
+            android:name=".ui.platos.GestPlatosActivity"
             android:exported="true" />
         <activity
-            android:name=".GestUsuariosActivity"
+            android:name=".ui.usuarios.GestUsuariosActivity"
             android:exported="true" />
         <activity
-            android:name=".VisionMisionActivity"
+            android:name=".ui.informacion.VisionMisionActivity"
             android:exported="true"
             android:theme="@style/Theme.MaterialComponents.Light.NoActionBar" />
         <activity
-            android:name=".QuienesSomosActivity"
+            android:name=".ui.informacion.QuienesSomosActivity"
             android:exported="true"
             android:theme="@style/Theme.MaterialComponents.Light.NoActionBar" />
         <activity
-            android:name=".MapsActivity"
+            android:name=".ui.informacion.MapsActivity"
             android:exported="true"
             android:theme="@style/Theme.MaterialComponents.Light.NoActionBar" />
         <activity
             android:name=".HomeActivity"
             android:exported="true" />
         <activity
-            android:name=".LoginActivity"
+            android:name=".ui.auth.LoginActivity"
             android:theme="@style/Theme.MaterialComponents.Light.NoActionBar"
             android:exported="true" />
         <activity
-            android:name=".MainActivity"
+            android:name=".ui.main.MainActivity"
             android:theme="@style/Theme.MaterialComponents.Light.NoActionBar">
             android:exported="true">
             <intent-filter>
