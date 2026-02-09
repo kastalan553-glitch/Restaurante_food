@@ -33,7 +33,7 @@ class HomeActivity : AppCompatActivity() {
         //menu inferior
         menuInferior.setOnNavigationItemSelectedListener { item ->
             when(item.itemId){
-                R.id.menu_maps -> {
+                R.id.menu_maps -> { 
                     val pantallaMaps = Intent(this, MapsActivity::class.java)
                     startActivity(pantallaMaps)
                     true
