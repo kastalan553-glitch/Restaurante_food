@@ -10,11 +10,15 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Restaurante">
         <activity
+            android:name=".ui.mozos.MozoAddActivity"
+            android:exported="true" />
+        <activity
             android:name=".ListaProductosActivity"
             android:exported="true" />
         <activity
             android:name=".PedidoActivity"
-            android:exported="true" />
+            android:exported="true"
+            android:theme="@style/Theme.MaterialComponents.Light.NoActionBar" />
         <activity
             android:name=".GestPedidosActivity"
             android:exported="true"
@@ -48,8 +52,8 @@
             android:exported="true" />
         <activity
             android:name=".ui.auth.LoginActivity"
-            android:theme="@style/Theme.MaterialComponents.Light.NoActionBar"
-            android:exported="true" />
+            android:exported="true"
+            android:theme="@style/Theme.MaterialComponents.Light.NoActionBar" />
         <activity
             android:name=".ui.main.MainActivity"
             android:theme="@style/Theme.MaterialComponents.Light.NoActionBar">
