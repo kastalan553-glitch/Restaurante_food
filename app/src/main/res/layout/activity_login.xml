@@ -64,7 +64,7 @@
         app:layout_constraintVertical_bias="0.652" />
 
     <EditText
-        android:id="@+id/txtUsuario2"
+        android:id="@+id/txtClave"
         android:layout_width="250dp"
         android:layout_height="50dp"
         android:background="@drawable/borde"
