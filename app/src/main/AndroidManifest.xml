@@ -7,14 +7,26 @@
 
     <application
         android:name=".api.VolleySingleton"
-        android:usesCleartextTraffic="true"
         android:allowBackup="true"
         android:icon="@drawable/icon_global"
         android:label="Hot Perú"
         android:roundIcon="@drawable/icon_global"
         android:supportsRtl="true"
-        android:theme="@style/Theme.Restaurante">
-        <uses-library android:name="org.apache.http.legacy" android:required="false" />
+        android:theme="@style/Theme.Restaurante"
+        android:usesCleartextTraffic="true">
+        <activity
+            android:name=".ui.usuarios.ListarUsuariosActivity"
+            android:exported="true"
+            android:theme="@style/Theme.MaterialComponents.Light.NoActionBar"/>
+        <activity
+            android:name=".ui.usuarios.AgregarUsuariosActivity"
+            android:exported="true"
+            android:theme="@style/Theme.MaterialComponents.Light.NoActionBar"/>
+
+        <uses-library
+            android:name="org.apache.http.legacy"
+            android:required="false" />
+
         <activity
             android:name=".ui.mozos.MozoAddActivity"
             android:exported="true" />
@@ -62,8 +74,8 @@
             android:theme="@style/Theme.MaterialComponents.Light.NoActionBar" />
         <activity
             android:name=".ui.main.MainActivity"
+            android:exported="true"
             android:theme="@style/Theme.MaterialComponents.Light.NoActionBar">
-            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
