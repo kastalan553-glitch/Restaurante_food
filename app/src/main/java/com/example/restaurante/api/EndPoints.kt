@@ -6,5 +6,7 @@ object EndPoints {
     object Usuarios {
         const val ROOT = "$BASE_URL/usuarios"
         const val LOGIN = "$ROOT/login"
+        const val ADD = "$ROOT/agregar"
+        const val LISTAR = "$ROOT/listar"
     }
 }
