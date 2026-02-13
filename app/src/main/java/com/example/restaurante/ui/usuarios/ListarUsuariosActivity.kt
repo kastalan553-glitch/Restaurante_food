@@ -20,11 +20,12 @@ class ListarUsuariosActivity : AppCompatActivity() {
     private var listView: ListView? = null
     private var userList: MutableList<Usuario>? = null
 
+
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.view_users_activity)
 
-        // 2. Vinculamos el componente
         listView = findViewById(R.id.listViewUsers)
         userList = mutableListOf()
         cargarUsuarios()

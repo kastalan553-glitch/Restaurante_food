@@ -8,5 +8,6 @@ object EndPoints {
         const val LOGIN = "$ROOT/login"
         const val ADD = "$ROOT/agregar"
         const val LISTAR = "$ROOT/listar"
+        const val DELETE = "$ROOT/eliminar"
     }
 }
