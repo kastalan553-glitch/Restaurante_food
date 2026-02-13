@@ -1,8 +1,10 @@
 package com.example.restaurante.ui.usuarios
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.*
+import androidx.appcompat.widget.Toolbar
 import com.android.volley.Request
 import com.android.volley.Response
 import com.android.volley.toolbox.StringRequest
@@ -13,22 +15,29 @@ import com.example.restaurante.api.EndPoints
 import com.example.restaurante.models.Usuario
 import org.json.JSONArray
 import org.json.JSONException
-import org.json.JSONObject
 
 class ListarUsuariosActivity : AppCompatActivity() {
 
     private var listView: ListView? = null
     private var userList: MutableList<Usuario>? = null
+    lateinit var toolbar: Toolbar
 
 
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.view_users_activity)
+        setContentView(R.layout.activity_listar_usuarios)
+        toolbar = findViewById(R.id.toolbar)
 
-        listView = findViewById(R.id.listViewUsers)
+        listView = findViewById(R.id.listaUsuariosVista)
         userList = mutableListOf()
         cargarUsuarios()
+
+        toolbar.setNavigationOnClickListener {
+            val pantallaGestUsu = Intent(this, GestUsuariosActivity::class.java)
+            startActivity(pantallaGestUsu)
+            finish()
+        }
     }
 
     private fun cargarUsuarios() {

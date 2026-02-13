@@ -15,13 +15,16 @@
         android:theme="@style/Theme.Restaurante"
         android:usesCleartextTraffic="true">
         <activity
+            android:name=".ui.platos.AgregarPlatoActivity"
+            android:exported="true" />
+        <activity
             android:name=".ui.usuarios.ListarUsuariosActivity"
             android:exported="true"
-            android:theme="@style/Theme.MaterialComponents.Light.NoActionBar"/>
+            android:theme="@style/Theme.MaterialComponents.Light.NoActionBar" />
         <activity
             android:name=".ui.usuarios.AgregarUsuariosActivity"
             android:exported="true"
-            android:theme="@style/Theme.MaterialComponents.Light.NoActionBar"/>
+            android:theme="@style/Theme.MaterialComponents.Light.NoActionBar" />
 
         <uses-library
             android:name="org.apache.http.legacy"
