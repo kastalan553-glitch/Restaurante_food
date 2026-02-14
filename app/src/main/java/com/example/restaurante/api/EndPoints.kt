@@ -9,5 +9,12 @@ object EndPoints {
         const val ADD = "$ROOT/agregar"
         const val LISTAR = "$ROOT/listar"
         const val DELETE = "$ROOT/eliminar"
+        const val UPDATE = "$ROOT/actualizar"
+    }
+    object Platos {
+        const val ROOT = "$BASE_URL/platos"
+        const val ADD = "$ROOT/agregar"
+        const val DELETE = "$ROOT/eliminar"
+        const val LISTAR = "$ROOT/listar"
     }
 }

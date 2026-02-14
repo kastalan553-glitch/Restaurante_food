@@ -15,8 +15,16 @@
         android:theme="@style/Theme.Restaurante"
         android:usesCleartextTraffic="true">
         <activity
-            android:name=".ui.platos.AgregarPlatoActivity"
+            android:name=".ui.usuarios.EditarUsuarioActivity"
             android:exported="true" />
+        <activity
+            android:name=".ui.platos.ListarPlatosActivity"
+            android:exported="true"
+            android:theme="@style/Theme.MaterialComponents.Light.NoActionBar" />
+        <activity
+            android:name=".ui.platos.AgregarPlatoActivity"
+            android:exported="true"
+            android:theme="@style/Theme.MaterialComponents.Light.NoActionBar" />
         <activity
             android:name=".ui.usuarios.ListarUsuariosActivity"
             android:exported="true"
