@@ -7,7 +7,7 @@ import com.example.restaurante.api.EndPoints
 import com.example.restaurante.api.VolleySingleton
 import org.json.JSONObject
 
-class PlatoDao (private val context: Context){
+class PlatoDao (val context: Context){
     private val urlAdd = EndPoints.Platos.ADD
 
 

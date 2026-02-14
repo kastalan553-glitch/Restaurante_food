@@ -36,21 +36,25 @@ class HomeActivity : AppCompatActivity() {
                 R.id.menu_maps -> { 
                     val pantallaMaps = Intent(this, MapsActivity::class.java)
                     startActivity(pantallaMaps)
+                    finish()
                     true
                 }
                 R.id.menu_qs -> {
                     val pantallaQS = Intent(this, QuienesSomosActivity::class.java)
                     startActivity(pantallaQS)
+                    finish()
                     true
                 }
                 R.id.menu_mv -> {
                     val pantallaMV = Intent(this, VisionMisionActivity::class.java)
                     startActivity(pantallaMV)
+                    finish()
                     true
                 }
                 R.id.menu_salir -> {
                     val pantallaHome = Intent(this, LoginActivity::class.java)
                     startActivity(pantallaHome)
+                    finish()
                     true
                 }
                 else -> false
@@ -71,18 +75,22 @@ class HomeActivity : AppCompatActivity() {
             R.id.gestionUsuarios -> {
                 val pantallaGestUsu = Intent(this, GestUsuariosActivity::class.java)
                 startActivity(pantallaGestUsu)
+                finish()
             }
             R.id.gestionMozos -> {
                 val pantallaGestMoz = Intent(this, GestMozosActivity::class.java)
                 startActivity(pantallaGestMoz)
+                finish()
             }
             R.id.gestionPlatos -> {
                 val pantallaGestPlat = Intent(this, GestPlatosActivity::class.java)
                 startActivity(pantallaGestPlat)
+                finish()
             }
             R.id.gestionPedidos -> {
                 val pantallaGestPed = Intent(this, GestPedidosActivity::class.java)
                 startActivity(pantallaGestPed)
+                finish()
             }
         }
         return super.onOptionsItemSelected(item)

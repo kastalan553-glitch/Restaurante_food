@@ -27,10 +27,12 @@ class GestPlatosActivity : AppCompatActivity() {
         btnListarPlatos.setOnClickListener {
             val pantallaListarPlato = Intent(this, ListarPlatosActivity::class.java)
             startActivity(pantallaListarPlato)
+            finish()
         }
         btnAgregarPlato.setOnClickListener {
             val pantallaAgregarPlato = Intent(this, AgregarPlatoActivity::class.java)
             startActivity(pantallaAgregarPlato)
+            finish()
         }
 
 

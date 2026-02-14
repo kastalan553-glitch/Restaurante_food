@@ -26,11 +26,13 @@ class GestUsuariosActivity : AppCompatActivity() {
         btnListarUsuarios.setOnClickListener {
             val pantallaListarUsu = Intent(this, ListarUsuariosActivity::class.java)
             startActivity(pantallaListarUsu)
+            finish()
         }
 
         btnAgregarUsuario.setOnClickListener {
                 val pantallaAgregarUsu = Intent(this, AgregarUsuariosActivity::class.java)
             startActivity(pantallaAgregarUsu)
+            finish()
         }
 
         toolbar.setNavigationOnClickListener{

@@ -17,4 +17,8 @@ object EndPoints {
         const val DELETE = "$ROOT/eliminar"
         const val LISTAR = "$ROOT/listar"
     }
+    object Mozos {
+        const val ROOT = "$BASE_URL/mozos"
+        const val ADD = "${Mozos.ROOT}/agregar"
+    }
 }
