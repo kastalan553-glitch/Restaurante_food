@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/menu_maps"
+        android:icon="@drawable/icon_maps"
+        android:title="Maps" />
+    <item
+        android:id="@+id/menu_qs"
+        android:icon="@drawable/qs_icon"
+        android:title="Quienes somos" />
+    <item
+        android:id="@+id/menu_mv"
+        android:icon="@drawable/mv_icon"
+        android:title="Misión y Visión" />
+    <item
+
+        android:id="@+id/menu_salir"
+        android:icon="@drawable/exit_icon"
+        android:title="Salir" />
+
+</menu>
