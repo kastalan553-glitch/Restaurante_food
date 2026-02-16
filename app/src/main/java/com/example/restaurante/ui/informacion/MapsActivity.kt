@@ -9,7 +9,7 @@ import androidx.appcompat.widget.Toolbar
 import com.example.restaurante.HomeActivity
 import com.example.restaurante.R
 
-class MapsActivity : AppCompatActivity() {
+class   MapsActivity : AppCompatActivity() {
     lateinit var toolbar: Toolbar
     //botones
     lateinit var btnlocal1: Button
@@ -23,13 +23,13 @@ class MapsActivity : AppCompatActivity() {
         btnlocal2 = findViewById(R.id.btnLocal2)
 
         btnlocal1.setOnClickListener{
-            val gmmIntentUri = Uri.parse("geo:0,0?q=-12.1297642,-77.2347101(Islas Palomino)")
+            val gmmIntentUri = Uri.parse("geo:0,0?q=-5.1985634,-80.6734682(Fundo Don Vito)")
             val mapIntent = Intent(Intent.ACTION_VIEW, gmmIntentUri)
             mapIntent.setPackage("com.google.android.apps.maps")
             startActivity(mapIntent)
         }
         btnlocal2.setOnClickListener{
-            val gmmIntentUri = Uri.parse("geo:0,0?q=-12.1297642,-77.2347101(Islas Palomino)")
+            val gmmIntentUri = Uri.parse("geo:0,0?q=-5.1506206,-80.6245512(Vivero Growing)")
             val mapIntent = Intent(Intent.ACTION_VIEW, gmmIntentUri)
             mapIntent.setPackage("com.google.android.apps.maps")
             startActivity(mapIntent)

@@ -37,7 +37,7 @@
             <ImageView
                 android:layout_width="60dp"
                 android:layout_height="60dp"
-                android:background="@drawable/ic_launcher_foreground"
+                android:background="@drawable/listarusu"
                 app:tint="#FFFFFF" />
 
             <TextView
@@ -81,7 +81,7 @@
             <ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:background="@drawable/icon_comida"
+                android:background="@drawable/agregarusu"
                 app:tint="#FFFFFF" />
 
             <TextView

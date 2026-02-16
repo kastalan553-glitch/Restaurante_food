@@ -52,7 +52,7 @@
             <ImageView
                 android:layout_width="60dp"
                 android:layout_height="60dp"
-                android:background="@drawable/ic_launcher_foreground"
+                android:background="@drawable/listarplatos"
                 app:tint="#FFFFFF" />
 
             <TextView
@@ -95,7 +95,7 @@
             <ImageView
                 android:layout_width="60dp"
                 android:layout_height="60dp"
-                android:background="@drawable/ic_launcher_foreground"
+                android:background="@drawable/icon_comida"
                 app:tint="#FFFFFF" />
 
             <TextView

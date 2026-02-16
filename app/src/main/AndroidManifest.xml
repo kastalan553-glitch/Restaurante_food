@@ -8,9 +8,9 @@
     <application
         android:name=".api.VolleySingleton"
         android:allowBackup="true"
-        android:icon="@drawable/icon_global"
+        android:icon="@drawable/logo"
         android:label="Don Aurelio"
-        android:roundIcon="@drawable/icon_global"
+        android:roundIcon="@drawable/logo"
         android:supportsRtl="true"
         android:theme="@style/Theme.Restaurante"
         android:usesCleartextTraffic="true">
@@ -20,7 +20,8 @@
             android:theme="@style/Theme.MaterialComponents.Light.NoActionBar"/>
         <activity
             android:name=".ui.mozos.EditarMozoActivity"
-            android:exported="true" />
+            android:exported="true"
+            android:theme="@style/Theme.MaterialComponents.Light.NoActionBar"/>
         <activity
             android:name=".ui.mozos.ListarMozosActivity"
             android:exported="true"
