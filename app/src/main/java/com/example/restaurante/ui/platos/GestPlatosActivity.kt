@@ -32,7 +32,6 @@ class GestPlatosActivity : AppCompatActivity() {
         btnAgregarPlato.setOnClickListener {
             val pantallaAgregarPlato = Intent(this, AgregarPlatoActivity::class.java)
             startActivity(pantallaAgregarPlato)
-            finish()
         }
 
 

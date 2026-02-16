@@ -19,7 +19,7 @@
         android:layout_height="30dp"
         android:fontFamily="@font/montserrat_medium"
         android:gravity="center"
-        android:text="Platos Registrados"
+        android:text="Pedidos Registrados"
         android:textColor="#FFFFFF"
         android:textSize="20sp"
         android:textStyle="bold"
@@ -28,18 +28,17 @@
         app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.098" />
+        app:layout_constraintVertical_bias="0.094" />
 
     <ListView
-        android:id="@+id/listaPlatosVista"
-        android:layout_width="366dp"
+        android:id="@+id/listaPedidosVista"
+        android:layout_width="359dp"
         android:layout_height="568dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.488"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.774" />
+        app:layout_constraintVertical_bias="0.77" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

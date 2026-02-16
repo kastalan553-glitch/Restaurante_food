@@ -9,20 +9,26 @@
         android:name=".api.VolleySingleton"
         android:allowBackup="true"
         android:icon="@drawable/icon_global"
-        android:label="Hot Perú"
+        android:label="Don Aurelio"
         android:roundIcon="@drawable/icon_global"
         android:supportsRtl="true"
         android:theme="@style/Theme.Restaurante"
         android:usesCleartextTraffic="true">
         <activity
+            android:name=".ui.platos.EditarPlatoActivity"
+            android:exported="true"
+            android:theme="@style/Theme.MaterialComponents.Light.NoActionBar"/>
+        <activity
             android:name=".ui.mozos.EditarMozoActivity"
             android:exported="true" />
         <activity
             android:name=".ui.mozos.ListarMozosActivity"
-            android:exported="true" />
+            android:exported="true"
+            android:theme="@style/Theme.MaterialComponents.Light.NoActionBar" />
         <activity
             android:name=".ui.usuarios.EditarUsuarioActivity"
-            android:exported="true" />
+            android:exported="true"
+            android:theme="@style/Theme.MaterialComponents.Light.NoActionBar"/>
         <activity
             android:name=".ui.platos.ListarPlatosActivity"
             android:exported="true"
@@ -46,10 +52,12 @@
 
         <activity
             android:name=".ui.mozos.AgregarMozoActivity"
-            android:exported="true" />
+            android:exported="true"
+            android:theme="@style/Theme.MaterialComponents.Light.NoActionBar" />
         <activity
-            android:name=".ListaProductosActivity"
-            android:exported="true" />
+            android:name=".ListaPedidosActivity"
+            android:exported="true"
+            android:theme="@style/Theme.MaterialComponents.Light.NoActionBar" />
         <activity
             android:name=".PedidoActivity"
             android:exported="true"

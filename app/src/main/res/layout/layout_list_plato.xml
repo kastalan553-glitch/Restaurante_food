@@ -44,6 +44,14 @@
     </LinearLayout>
 
     <ImageButton
+        android:id="@+id/btnEditarPlato"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        android:src="@android:drawable/ic_menu_edit"
+        android:tint="#673AB7" />
+
+    <ImageButton
         android:id="@+id/btnEliminarPlato"
         android:layout_width="48dp"
         android:layout_height="48dp"

@@ -61,7 +61,10 @@ class AgregarPlatoActivity : AppCompatActivity() {
         platoDao.agregarPlato(codplato, descripcion, costouniD, costofamiD) {exito ->
             if (exito){
                 Toast.makeText(this, "Plato registrado con éxito", Toast.LENGTH_SHORT).show()
+                val pantallaListaPlato = Intent(this, ListarPlatosActivity::class.java)
+                startActivity(pantallaListaPlato)
                 finish()
+
             } else{
                 Toast.makeText(this, "Error al registrar Plato", Toast.LENGTH_SHORT).show()
             }

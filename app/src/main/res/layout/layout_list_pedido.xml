@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="16dp">
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textViewCod"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="IdPedido: "
+            android:textColor="#BBBBBB"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/textViewPlato"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Plato:"
+            android:textColor="#BBBBBB"
+            android:textSize="18sp" />
+
+
+        <TextView
+            android:id="@+id/textViewDescrip"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="N°mesa:"
+            android:textColor="#BBBBBB"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/textViewPrecioU"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hora:"
+            android:textColor="#BBBBBB"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/textViewCantidad"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cantidad:"
+            android:textColor="#BBBBBB"
+            android:textSize="14sp" />
+        <TextView
+            android:id="@+id/textViewTipoP"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tipo Plato:"
+            android:textColor="#BBBBBB"
+            android:textSize="14sp" />
+        <TextView
+            android:id="@+id/textViewObsev"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Observación:"
+            android:textColor="#BBBBBB"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/textViewMozo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mozo:"
+            android:textColor="#BBBBBB"
+            android:textSize="14sp" />
+    </LinearLayout>
+
+    <ImageButton
+        android:id="@+id/btnEliminarPlato"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        android:contentDescription="Eliminar Plato"
+        android:src="@android:drawable/ic_menu_delete"
+        android:tint="#FF0000" />
+
+</LinearLayout>

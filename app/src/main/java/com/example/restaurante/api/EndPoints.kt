@@ -16,9 +16,17 @@ object EndPoints {
         const val ADD = "$ROOT/agregar"
         const val DELETE = "$ROOT/eliminar"
         const val LISTAR = "$ROOT/listar"
+        const val UPDATE = "${ROOT}/actualizar"
     }
     object Mozos {
         const val ROOT = "$BASE_URL/mozos"
-        const val ADD = "${Mozos.ROOT}/agregar"
+        const val ADD = "${ROOT}/agregar"
+        const val LISTAR = "${ROOT}/listar"
+        const val DELETE = "${ROOT}/eliminar"
+    }
+    object Pedidos {
+        const val ROOT = "$BASE_URL/pedido"
+        const val ADD = "${ROOT}/agregar"
+        const val LISTAR = "${ROOT}/listar"
     }
 }

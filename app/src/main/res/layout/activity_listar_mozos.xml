@@ -4,6 +4,42 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ui.mozos.ListarMozosActivity">
+    android:background="@drawable/background_general_dos"
+    tools:context=".ui.platos.ListarPlatosActivity">
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/toolbar_personalizada"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:layout_width="304dp"
+        android:layout_height="30dp"
+        android:fontFamily="@font/montserrat_medium"
+        android:gravity="center"
+        android:text="Mozos Registrados"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.089" />
+
+    <ListView
+        android:id="@+id/listaPedidosVista"
+        android:layout_width="360dp"
+        android:layout_height="568dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.49"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.772" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

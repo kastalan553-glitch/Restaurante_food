@@ -3,24 +3,33 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/Alan/Desktop/Final/Restaurante_food/app/src/main/res/drawable/bg_inputlogin.xml" value="0.3828125" />
+        <entry key="..\:/Users/Alan/Desktop/Final/Restaurante_food/app/src/main/res/drawable/borde.xml" value="0.3828125" />
         <entry key="..\:/Users/Alan/Desktop/Final/Restaurante_food/app/src/main/res/layout/activity_agregar_mozo.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/Alan/Desktop/Final/Restaurante_food/app/src/main/res/layout/activity_agregar_plato.xml" value="0.33" />
-        <entry key="..\:/Users/Alan/Desktop/Final/Restaurante_food/app/src/main/res/layout/activity_agregar_usuarios.xml" value="0.22" />
+        <entry key="..\:/Users/Alan/Desktop/Final/Restaurante_food/app/src/main/res/layout/activity_agregar_usuarios.xml" value="0.25" />
         <entry key="..\:/Users/Alan/Desktop/Final/Restaurante_food/app/src/main/res/layout/activity_editar_mozo.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Alan/Desktop/Final/Restaurante_food/app/src/main/res/layout/activity_editar_plato.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/Alan/Desktop/Final/Restaurante_food/app/src/main/res/layout/activity_editar_usuario.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/Alan/Desktop/Final/Restaurante_food/app/src/main/res/layout/activity_gest_mozos.xml" value="0.3625" />
+        <entry key="..\:/Users/Alan/Desktop/Final/Restaurante_food/app/src/main/res/layout/activity_gest_pedidos.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/Alan/Desktop/Final/Restaurante_food/app/src/main/res/layout/activity_gest_platos.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/Alan/Desktop/Final/Restaurante_food/app/src/main/res/layout/activity_gest_usuarios.xml" value="0.33" />
         <entry key="..\:/Users/Alan/Desktop/Final/Restaurante_food/app/src/main/res/layout/activity_home.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Alan/Desktop/Final/Restaurante_food/app/src/main/res/layout/activity_lista_pedidos.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Alan/Desktop/Final/Restaurante_food/app/src/main/res/layout/activity_lista_productos.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/Alan/Desktop/Final/Restaurante_food/app/src/main/res/layout/activity_listar_mozos.xml" value="0.33" />
-        <entry key="..\:/Users/Alan/Desktop/Final/Restaurante_food/app/src/main/res/layout/activity_listar_platos.xml" value="0.20677083333333332" />
-        <entry key="..\:/Users/Alan/Desktop/Final/Restaurante_food/app/src/main/res/layout/activity_listar_usuarios.xml" value="0.1" />
+        <entry key="..\:/Users/Alan/Desktop/Final/Restaurante_food/app/src/main/res/layout/activity_listar_platos.xml" value="0.25" />
+        <entry key="..\:/Users/Alan/Desktop/Final/Restaurante_food/app/src/main/res/layout/activity_listar_usuarios.xml" value="0.25" />
         <entry key="..\:/Users/Alan/Desktop/Final/Restaurante_food/app/src/main/res/layout/activity_login.xml" value="0.3625" />
         <entry key="..\:/Users/Alan/Desktop/Final/Restaurante_food/app/src/main/res/layout/activity_main.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/Alan/Desktop/Final/Restaurante_food/app/src/main/res/layout/activity_maps.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/Alan/Desktop/Final/Restaurante_food/app/src/main/res/layout/activity_mozo_add.xml" value="0.3625" />
-        <entry key="..\:/Users/Alan/Desktop/Final/Restaurante_food/app/src/main/res/layout/activity_pedido.xml" value="0.348731884057971" />
+        <entry key="..\:/Users/Alan/Desktop/Final/Restaurante_food/app/src/main/res/layout/activity_pedido.xml" value="0.33" />
+        <entry key="..\:/Users/Alan/Desktop/Final/Restaurante_food/app/src/main/res/layout/activity_quienes_somos.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/Alan/Desktop/Final/Restaurante_food/app/src/main/res/layout/activity_vision_mision.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Alan/Desktop/Final/Restaurante_food/app/src/main/res/layout/layout_list_mozo.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Alan/Desktop/Final/Restaurante_food/app/src/main/res/layout/layout_list_pedido.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/Alan/Desktop/Final/Restaurante_food/app/src/main/res/layout/layout_list_plato.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/Alan/Desktop/Final/Restaurante_food/app/src/main/res/layout/layout_list_usuario.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/Alan/Desktop/Final/Restaurante_food/app/src/main/res/layout/toolbar_gestion.xml" value="0.36666666666666664" />

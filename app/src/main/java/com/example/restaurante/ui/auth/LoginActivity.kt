@@ -55,7 +55,7 @@ class LoginActivity : AppCompatActivity() {
 
         loginDao.login(misCredenciales) {
                 loginCorrecto -> if (loginCorrecto) {
-                    Toast.makeText(this, "Bienvenido a Hot Perú", Toast.LENGTH_SHORT).show()
+                    Toast.makeText(this, "¡Bienvenido a Don Aurelio!", Toast.LENGTH_SHORT).show()
                     llamarHome()
                 } else {
                 Toast.makeText(this, "Usuario o contraseña incorrecta", Toast.LENGTH_SHORT).show()
