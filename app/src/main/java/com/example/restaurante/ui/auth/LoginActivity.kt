@@ -63,13 +63,13 @@ class LoginActivity : AppCompatActivity() {
         }
     }
 
-    private fun llamarHome() {
+    fun llamarHome() {
         val intent = Intent(this, HomeActivity::class.java)
         startActivity(intent)
         finish()
     }
 
-    private fun llamarMain() {
+    fun llamarMain() {
         val intent = Intent(this, MainActivity::class.java)
         startActivity(intent)
         finish()

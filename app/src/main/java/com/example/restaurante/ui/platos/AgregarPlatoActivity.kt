@@ -34,8 +34,6 @@ class AgregarPlatoActivity : AppCompatActivity() {
         toolbar =findViewById(R.id.toolbar)
 
         toolbar.setNavigationOnClickListener{
-            val pantallaGestPlato = Intent(this, GestPlatosActivity::class.java)
-            startActivity(pantallaGestPlato)
             finish()
         }
 

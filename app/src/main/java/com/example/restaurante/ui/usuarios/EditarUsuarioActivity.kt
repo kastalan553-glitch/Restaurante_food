@@ -26,9 +26,8 @@ class EditarUsuarioActivity : AppCompatActivity() {
         txtClave = findViewById(R.id.txtPassUsuEdit)
         btnActualizar = findViewById(R.id.btnUpdateUsu)
         toolbar = findViewById(R.id.toolbar)
+
         toolbar.setNavigationOnClickListener{
-            val pantallaGestPlato = Intent(this, GestUsuariosActivity::class.java)
-            startActivity(pantallaGestPlato)
             finish()
         }
 
@@ -45,7 +44,7 @@ class EditarUsuarioActivity : AppCompatActivity() {
             actualizarDatos()
         }
     }
-    private fun actualizarDatos() {
+    fun actualizarDatos() {
         val nombre = txtNombre.text.toString().trim()
         val clave = txtClave.text.toString().trim()
 

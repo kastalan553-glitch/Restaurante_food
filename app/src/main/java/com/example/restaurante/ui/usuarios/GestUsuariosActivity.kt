@@ -34,8 +34,6 @@ class GestUsuariosActivity : AppCompatActivity() {
         }
 
         toolbar.setNavigationOnClickListener{
-            val pantallaHome = Intent(this, HomeActivity::class.java)
-            startActivity(pantallaHome)
             finish()
         }
     }

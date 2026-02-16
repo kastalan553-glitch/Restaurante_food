@@ -9,6 +9,7 @@ import com.example.restaurante.adapter.PedidoList
 import com.example.restaurante.dao.PedidoDao
 
 class ListaPedidosActivity : AppCompatActivity() {
+
     lateinit var listView: ListView
     lateinit var toolbar: Toolbar
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -22,7 +23,7 @@ class ListaPedidosActivity : AppCompatActivity() {
 
         cargarPedidosServidor()
     }
-    private fun cargarPedidosServidor() {
+    fun cargarPedidosServidor() {
         PedidoDao(this).listarPedidos { lista ->
             if (lista != null) {
                 val adapter = PedidoList(this, lista)

@@ -33,13 +33,11 @@ class ListarPlatosActivity : AppCompatActivity() {
         cargarPlatos()
 
         toolbar.setNavigationOnClickListener {
-            val pantallaGestPlato = Intent(this, GestPlatosActivity::class.java)
-            startActivity(pantallaGestPlato)
             finish()
         }
     }
 
-    private fun cargarPlatos() {
+    fun cargarPlatos() {
         val url = EndPoints.Platos.LISTAR
 
         val stringRequest = StringRequest(Request.Method.GET, url,

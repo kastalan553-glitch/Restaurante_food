@@ -27,8 +27,6 @@ class AgregarUsuariosActivity : AppCompatActivity() {
         toolbar = findViewById(R.id.toolbar)
 
         toolbar.setNavigationOnClickListener{
-            val pantallaGestUsu = Intent(this, GestUsuariosActivity::class.java)
-            startActivity(pantallaGestUsu)
             finish()
         }
 

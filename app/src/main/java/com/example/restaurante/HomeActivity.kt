@@ -6,6 +6,8 @@ import android.os.Bundle
 import android.view.Menu
 import android.view.MenuItem
 import android.widget.Button
+import android.widget.Toast
+import androidx.appcompat.app.AlertDialog
 import com.example.restaurante.ui.auth.LoginActivity
 import com.example.restaurante.ui.informacion.MapsActivity
 import com.example.restaurante.ui.informacion.QuienesSomosActivity
@@ -75,22 +77,18 @@ class HomeActivity : AppCompatActivity() {
             R.id.gestionUsuarios -> {
                 val pantallaGestUsu = Intent(this, GestUsuariosActivity::class.java)
                 startActivity(pantallaGestUsu)
-                finish()
             }
             R.id.gestionMozos -> {
                 val pantallaGestMoz = Intent(this, GestMozosActivity::class.java)
                 startActivity(pantallaGestMoz)
-                finish()
             }
             R.id.gestionPlatos -> {
                 val pantallaGestPlat = Intent(this, GestPlatosActivity::class.java)
                 startActivity(pantallaGestPlat)
-                finish()
             }
             R.id.gestionPedidos -> {
                 val pantallaGestPed = Intent(this, GestPedidosActivity::class.java)
                 startActivity(pantallaGestPed)
-                finish()
             }
         }
         return super.onOptionsItemSelected(item)

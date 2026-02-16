@@ -34,13 +34,11 @@ class ListarUsuariosActivity : AppCompatActivity() {
         cargarUsuarios()
 
         toolbar.setNavigationOnClickListener {
-            val pantallaGestUsu = Intent(this, GestUsuariosActivity::class.java)
-            startActivity(pantallaGestUsu)
             finish()
         }
     }
 
-    private fun cargarUsuarios() {
+    fun cargarUsuarios() {
 
         val url = EndPoints.Usuarios.LISTAR
 

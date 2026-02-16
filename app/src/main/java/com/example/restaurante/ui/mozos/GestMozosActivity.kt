@@ -26,7 +26,6 @@ class GestMozosActivity : AppCompatActivity() {
         btnListarMozos.setOnClickListener{
             val pantallaListarMozos = Intent(this, ListarMozosActivity::class.java)
             startActivity(pantallaListarMozos)
-            finish()
         }
 
         btnAgregarMozo.setOnClickListener {
@@ -35,8 +34,6 @@ class GestMozosActivity : AppCompatActivity() {
         }
 
         toolbar.setNavigationOnClickListener{
-            val pantallaHome = Intent(this, HomeActivity::class.java)
-            startActivity(pantallaHome)
             finish()
         }
     }

@@ -37,7 +37,7 @@ class ListarMozosActivity : AppCompatActivity() {
         }
     }
 
-    private fun cargarMozos() {
+    fun cargarMozos() {
         val url = EndPoints.Mozos.LISTAR
 
         val stringRequest = StringRequest(Request.Method.GET, url,

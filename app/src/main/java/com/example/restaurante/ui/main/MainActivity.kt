@@ -32,7 +32,7 @@ class MainActivity : AppCompatActivity() {
     fun cerrar(){
         val builder : AlertDialog.Builder = AlertDialog.Builder(this)
         builder
-            .setMessage("Una vez finalizada la App tendras que volver a iniciar sesión")
+            .setMessage("La app finalizará")
             .setTitle("¿Seguro que deseas salir?")
             .setPositiveButton(android.R.string.yes){ dialog, which ->
                 Toast.makeText(applicationContext, android.R.string.yes, Toast.LENGTH_SHORT).show()

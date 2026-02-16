@@ -27,7 +27,7 @@ class GestPlatosActivity : AppCompatActivity() {
         btnListarPlatos.setOnClickListener {
             val pantallaListarPlato = Intent(this, ListarPlatosActivity::class.java)
             startActivity(pantallaListarPlato)
-            finish()
+
         }
         btnAgregarPlato.setOnClickListener {
             val pantallaAgregarPlato = Intent(this, AgregarPlatoActivity::class.java)
@@ -36,8 +36,6 @@ class GestPlatosActivity : AppCompatActivity() {
 
 
         toolbar.setNavigationOnClickListener{
-            val pantallaHome = Intent(this, HomeActivity::class.java)
-            startActivity(pantallaHome)
             finish()
         }
     }
