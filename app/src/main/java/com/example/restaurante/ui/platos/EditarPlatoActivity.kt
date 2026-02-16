@@ -28,6 +28,7 @@ class EditarPlatoActivity : AppCompatActivity() {
         txtDescripcion = findViewById(R.id.txtDescripcionPlatoEdit)
         txtCostoUni = findViewById(R.id.txtCostoUniEdit)
         txtCostoFami = findViewById(R.id.txtCostoFamiEdit)
+
         btnActualizar = findViewById(R.id.btnActualizarPlato)
         toolbar = findViewById(R.id.toolbar)
 

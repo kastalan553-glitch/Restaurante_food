@@ -65,6 +65,33 @@ class MozoDao (val context: Context) {
         VolleySingleton.instance?.addToRequestQueue(request)
     }
 
+    fun editarMozo(dni: String, nombre: String, direccion: String, fecha: String, movil: String,
+                   email: String, onResult: (Boolean) -> Unit) {
+        val urlActualizarId = "${EndPoints.Mozos.UPDATE}/$dni"
+
+        val jsonBody = JSONObject().apply {
+            put("dnimozo", dni)
+            put("nombre", nombre)
+            put("direccion", direccion)
+            put("fechaingreso", fecha)
+            put("movil", movil)
+            put("email", email)
+        }
+        val request = JsonObjectRequest(Request.Method.PUT, urlActualizarId, jsonBody,
+            { response ->
+                android.util.Log.d("MOZO_DAO", "actualizado: $response")
+                onResult(true)
+            },
+            { error ->
+                android.util.Log.e("MOZO_DAO", "Error: ${error.message}")
+                onResult(false)
+            }
+        )
+        VolleySingleton.instance?.addToRequestQueue(request)
+    }
+
+
+
     fun eliminarMozo(id: String, onResult: (Boolean) -> Unit) {
         val url = "${EndPoints.Mozos.DELETE}/$id"
 

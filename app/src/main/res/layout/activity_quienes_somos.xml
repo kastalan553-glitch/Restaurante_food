@@ -23,7 +23,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.201"
+        app:layout_constraintVertical_bias="0.167"
         app:srcCompat="@drawable/interior" />
 
     <TextView
@@ -44,16 +44,17 @@
     <TextView
         android:id="@+id/textView4"
         android:layout_width="352dp"
-        android:layout_height="144dp"
+        android:layout_height="159dp"
         android:fontFamily="@font/montserrat_medium"
-        android:text="En Hot Perú, el fuego no solo está en nuestra cocina, está en nuestra identidad. Nacimos con el deseo de compartir la riqueza de la gastronomía peruana, combinando técnicas ancestrales con un servicio que te hace sentir parte de nuestra familia. Desde el primer corte de un ceviche hasta el aroma de un lomo saltado, cada detalle está pensado para transportarte a las calles de Perú."
+        android:text="En Don Aurelio, el fuego no solo está en nuestra cocina, está en nuestra identidad. Nacimos con el deseo de compartir la riqueza de la gastronomía peruana, combinando técnicas ancestrales con un servicio que te hace sentir parte de nuestra familia. Desde el primer corte de un ceviche hasta el aroma de un lomo saltado, cada detalle está pensado para transportarte a las calles de Perú."
         android:textColor="#FFFFFF"
         android:textSize="14sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.508"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.778" />
+        app:layout_constraintVertical_bias="0.788" />
 
     <ImageView
         android:id="@+id/imageView4"
