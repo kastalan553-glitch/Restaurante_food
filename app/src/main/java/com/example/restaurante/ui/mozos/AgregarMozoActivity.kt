@@ -60,7 +60,6 @@ class AgregarMozoActivity : AppCompatActivity() {
             return
         }
 
-        // Llamamos al DAO (lo crearemos en el siguiente paso)
         mozoDao.agregarMozo(dni, nom, dir, fec, mov, ema) { exito ->
             if (exito) {
                 Toast.makeText(this, "Mozo registrado con éxito", Toast.LENGTH_SHORT).show()

@@ -15,7 +15,6 @@ class PedidoList (private val context: Activity, private var pedidos: List<Pedid
         val inflater = context.layoutInflater
         val listViewItem = inflater.inflate(R.layout.layout_list_pedido, null, true)
 
-        // Vincular los TextViews del XML de la fila
         val txtCod = listViewItem.findViewById<TextView>(R.id.textViewCod)
         val txtPlato = listViewItem.findViewById<TextView>(R.id.textViewPlato)
         val txtMesa = listViewItem.findViewById<TextView>(R.id.textViewDescrip)

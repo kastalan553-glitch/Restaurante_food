@@ -44,7 +44,6 @@ class EditarPlatoActivity : AppCompatActivity() {
         txtCostoUni.setText(intent.getDoubleExtra("costounitario", 0.0).toString())
         txtCostoFami.setText(intent.getDoubleExtra("costofamiliar", 0.0).toString())
 
-        // Compañeros, lina 48 para bloquear el ID al editar
         txtCodPlato.isEnabled = false
 
         btnActualizar.setOnClickListener {

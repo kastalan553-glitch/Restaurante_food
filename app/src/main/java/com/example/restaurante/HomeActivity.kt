@@ -71,7 +71,7 @@ class HomeActivity : AppCompatActivity() {
         return super.onCreateOptionsMenu(menu)
     }
 
-    //PARA QUE LAS OPCIONES DEL MENU SUPERIOR FUNCIONEN PS
+    //PARA QUE LAS OPCIONES DEL MENU SUPERIOR FUNCIONEN
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
         when(item.itemId){
             R.id.gestionUsuarios -> {

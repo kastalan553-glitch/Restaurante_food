@@ -40,7 +40,7 @@ class LoginActivity : AppCompatActivity() {
         }
     }
 
-    private fun VerificarCredenciales() {
+    fun VerificarCredenciales() {
         val usuarioInput = txtUsuario.text.toString().trim()
         val claveInput = txtClave.text.toString().trim()
 

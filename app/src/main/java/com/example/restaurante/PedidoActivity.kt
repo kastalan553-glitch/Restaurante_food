@@ -121,31 +121,26 @@ class PedidoActivity : AppCompatActivity() {
 
 
     fun registrarPedido() {
-        // 1. Capturar los textos de los EditText
         val idPedido = txtIdPedido.text.toString()
         val cantidadStr = txtCantidad.text.toString()
         val detalleObs = txtObservacion.text.toString()
         val hora = txtHora.text.toString()
 
-        // 2. Validar que los campos obligatorios y las listas no estén vacíos
         if (idPedido.isEmpty() || cantidadStr.isEmpty() || listaPlatos.isEmpty() || listaMozos.isEmpty()) {
             Toast.makeText(this, "Por favor, complete todos los campos y espere la carga de datos", Toast.LENGTH_SHORT).show()
             return
         }
 
-        // 3. Obtener los objetos seleccionados en los Spinners
-        // Usamos la posición del Spinner para sacar el objeto real de nuestras listas
+
         val platoSeleccionado = listaPlatos[cbPlato.selectedItemPosition]
         val mozoSeleccionado = listaMozos[cbMozo.selectedItemPosition]
         val mesaSeleccionada = cbMesa.selectedItem.toString()
 
-        // 4. Lógica de negocio: Concatenar la observación según el RadioButton
         val tipo = if (rbUnitario.isChecked) "Unitario" else "Familiar"
 
-        // 5. Convertir cantidad a número de forma segura
+
         val cantidadInt = cantidadStr.toIntOrNull() ?: 0
 
-        // 6. Crear el objeto Pedido completo
         val nuevoPedido = Pedido(
             idpedido = idPedido,
             nmesa = mesaSeleccionada,
@@ -157,7 +152,6 @@ class PedidoActivity : AppCompatActivity() {
             mozo = mozoSeleccionado
         )
 
-        // 7. Enviar al DAO
         pedidoDao.registrarPedido(nuevoPedido) { exito ->
             if (exito) {
                 Toast.makeText(this, "Pedido registrado con éxito", Toast.LENGTH_LONG).show()

@@ -14,13 +14,11 @@ import androidx.appcompat.widget.Toolbar
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_gest_pedidos)
 
-        // 1. Configurar Toolbar
         toolbar = findViewById(R.id.toolbar)
         toolbar.setNavigationOnClickListener {
             finish()
         }
 
-        // 2. Configurar Botón para ir al listado
         btnListar = findViewById(R.id.btnListarPedidos)
         btnListar.setOnClickListener {
             val intent = Intent(this, ListaPedidosActivity::class.java)
